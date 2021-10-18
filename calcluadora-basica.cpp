@@ -18,7 +18,7 @@ int main(){
     int potencia;
 
 
-    cout<<"Escriba una operación entre entero: "<<endl;
+    std::cout<<"Escriba una operación entre entero: "<<endl;
 
     cin>>numero1;
      
@@ -35,67 +35,41 @@ int main(){
         switch (operador)
         {
         case '+':
-            /* code */
+            resultado=numero1+numero2;
             break;
 
         case '-':
-            /* code */
+            resultado=numero1-numero2;
             break;
         case '*':
-            /* code */
+            resultado=numero1*numero2;
             break;
         
         case '/':
-            /* code */
+            resultado=numero1/numero2;
             break;
         case '%':
-            /* code */
+            resultado=numero1%numero2;
             break;
         
         case '^':
-            /* code */
+            resultado=numero1;
+            while (aux<numero2)
+            {
+                resultado*=numero1;     
+                aux++;
+            }      
             break;
         
         default:
             break;
         }
         
-        resultado=numero1+numero2;
-    }
-    else if (operdador=="-")
-    {
-        resultado=numero1-numero2;
-    }
-    else if (operdador=="*")
-    {
-        resultado=numero1*numero2;
-    }
-     else if (operdador=="/")
-    {
-        resultado=numero1/numero2;
-    }
-     else if (operdador=="%")
-    {
-        resultado=numero1%numero2;
-    }
-     else if (operdador=="^")
-    {
-        while (aux<=numero2)
-        {
-            resultado=numero1*numero1;     
-            aux++;
-        }
         
     }
     
-        
-    }
 
-
-
-
-
-    cout<<numero1<<" "<<operdador<<" "<<numero2<<" = "<<resultado<<endl;
+    cout<<numero1<<" "<<operador<<" "<<numero2<<" = "<<resultado<<endl;
 
 
     return 0;
