@@ -22,7 +22,7 @@ if (dinero<0)
         cout<<"El valor introducio no es positivo"<<endl;
         return 1;
     }
-    else{
+else{
         int centimos = int(100*dinero+0.5)%100;
         int euro= int(dinero+0.005);
 

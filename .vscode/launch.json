@@ -24,8 +24,8 @@
       "environment": [],
       "program": "/Users/miguel/Desktop/Universidad/Prog1/Practica2/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "MIMode": "lldb",
+      "miDebuggerPath": "/usr/bin/lldb",
       "externalConsole": false,
       "setupCommands": [
         {
