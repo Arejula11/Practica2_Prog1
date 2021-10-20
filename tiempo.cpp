@@ -20,13 +20,23 @@ int main(){
     const int HORAS_SEGUNDOS=3600;
     const int MINUTOS_SEGUNDOS=60;
 
-    int dias = tiempo/DIAS_SEGUNDOS;
-    int horas= (tiempo-dias*DIAS_SEGUNDOS)/HORAS_SEGUNDOS;
-    int minutos=(tiempo-(dias*DIAS_SEGUNDOS+horas*HORAS_SEGUNDOS))/MINUTOS_SEGUNDOS;    
-    int segundos=(tiempo-(dias*DIAS_SEGUNDOS+horas*HORAS_SEGUNDOS+minutos*MINUTOS_SEGUNDOS));
+    if (tiempo>0)
+    {
+        int dias = tiempo/DIAS_SEGUNDOS;
+        int horas= (tiempo-dias*DIAS_SEGUNDOS)/HORAS_SEGUNDOS;
+        int minutos=(tiempo-(dias*DIAS_SEGUNDOS+horas*HORAS_SEGUNDOS))/MINUTOS_SEGUNDOS;    
+        int segundos=(tiempo-(dias*DIAS_SEGUNDOS+horas*HORAS_SEGUNDOS+minutos*MINUTOS_SEGUNDOS));
 
-    cout<<"Este tiempo equivale a "<< dias<<" dias "<<horas<< " horas "<< minutos<<" minutos y "<<segundos<<" segundos"<<endl;
+        cout<<"Este tiempo equivale a "<< dias<<" dias "<<horas<< " horas "<< minutos<<" minutos y "<<segundos<<" segundos"<<endl;
 
 
     return 0;
+    }
+    
+    else{
+        cout<<"El valor introducio no es positivo"<<endl;
+        return 1;
+    }
+
+    
 }   

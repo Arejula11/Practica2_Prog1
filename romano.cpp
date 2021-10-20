@@ -15,20 +15,20 @@ int main(){
     cin>>numero;
     if (numero<1 || numero>10)
     {
-        cout<<"El número no pertenece al intervalo[1,10]";
+        cout<<"El número no pertenece al intervalo[1,10]"<<endl;
         return 1;
     }
     else{
         if (numero<4){
-        aux=1;
-        cout<<numero<<" = I";
-        while (aux<numero)
-        {
-            aux++;
-            cout<<"I";
-        }
-        cout<<endl;
-       ;
+            aux=1;
+            cout<<numero<<" = I";
+            while (aux<numero)
+            {
+                aux++;
+                cout<<"I";
+            }
+            cout<<endl;
+       
     }
     else if (numero==4){
 

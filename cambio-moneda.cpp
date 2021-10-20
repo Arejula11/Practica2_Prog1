@@ -19,16 +19,16 @@ int main(){
     cin>>dinero;
 if (dinero<0)
     {
-        cout<<"El valor introducio no es positivo";
+        cout<<"El valor introducio no es positivo"<<endl;
         return 1;
     }
     else{
-    int centimos = int(100*dinero+0.5)%100;
-    int euro= int(dinero+0.005);
+        int centimos = int(100*dinero+0.5)%100;
+        int euro= int(dinero+0.005);
 
-    cout<<fixed<<"Son "<< setprecision(0)<<euro<<" euros y "<<centimos<< " céntimos que equivalen a " << dinero * PESETAS_POR_EURO<<" pesetas"<<endl;
+        cout<<fixed<<"Son "<< setprecision(0)<<euro<<" euros y "<<centimos<< " céntimos que equivalen a " << dinero * PESETAS_POR_EURO<<" pesetas"<<endl;
 
 
-    return 0;
+        return 0;
     }
 }

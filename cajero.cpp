@@ -16,15 +16,15 @@ int main(){
     cin>>dinero;
 
     if (dinero<0 && dinero%10!=0){
-       cout<<"El valor introducio no es positivo ni multiplo de 10";
+        cout<<"El valor introducio no es positivo ni multiplo de 10"<<endl;
         return 1;
     }
     else if (dinero<0){
-       cout<<"El valor introducio no es positivo";
+        cout<<"El valor introducio no es positivo"<<endl;
         return 1;
     }
     else if(dinero%10!=0){
-        cout<<"El valor introducio no es multiplo de 10";
+        cout<<"El valor introducio no es multiplo de 10"<<endl;
         return 1;
     }
     else{

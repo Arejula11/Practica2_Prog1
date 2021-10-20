@@ -18,14 +18,14 @@ int main(){
     cin >> fecha;
     if (fecha<0)
     {
-        cout<<"El valor introducio no es positivo";
+        cout<<"El valor introducio no es positivo"<<endl;
         return 1;
     }
     else{
-    cout <<setfill('0') <<"La fecha escrita es: "
-    <<setw(2)<<fecha%100<< "/" 
-    <<setw(2)<<setprecision(0)<<fecha%10000/100<< "/" 
-    <<setprecision(0)<<fecha/10000<<endl;
+        cout <<setfill('0') <<"La fecha escrita es: "
+        <<setw(2)<<fecha%100<< "/" 
+        <<setw(2)<<setprecision(0)<<fecha%10000/100<< "/" 
+        <<setprecision(0)<<fecha/10000<<endl;
 
     return 0;
     }
