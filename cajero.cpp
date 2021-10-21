@@ -12,7 +12,7 @@ using namespace std;
 int main(){
 
     int dinero;
-    cout<<"Cantidad a retirar en euros [Positiva y multiplo de 10]: "<<endl;
+    cout<<"Cantidad a retirar en euros [Positiva y multiplo de 10]: ";
     cin>>dinero;
 
     if (dinero<0 && dinero%10!=0){

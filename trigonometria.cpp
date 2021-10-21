@@ -20,7 +20,7 @@ int main(){
     const double PI=3.14159265359;
     /*Declaro las variables y la constante PI*/
 
-    cout<<"Escriba el valor de un ángulo (grados, minutos y segundos ): "<<endl;
+    cout<<"Escriba el valor de un ángulo (grados, minutos y segundos ): ";
     cin>>grados;
     cin>>minutos;
     cin>>segundos;

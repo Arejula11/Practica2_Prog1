@@ -11,7 +11,7 @@ int main(){
 
     unsigned numero;
     int aux;
-    cout<<"Escriba un numero entero entre 1 y 10: "<<endl;
+    cout<<"Escriba un numero entero entre 1 y 10: ";
     cin>>numero;
     if (numero<1 || numero>10)
     {

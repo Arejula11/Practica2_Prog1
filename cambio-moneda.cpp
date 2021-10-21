@@ -12,7 +12,7 @@ using namespace std;
 
 int main(){
 
-    cout<<"Escriba una cantidad no negativa de dinero en euros: "<<endl;
+    cout<<"Escriba una cantidad no negativa de dinero en euros: ";
     const double PESETAS_POR_EURO = 166.386;
     double dinero;
 

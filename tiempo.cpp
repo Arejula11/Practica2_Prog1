@@ -13,7 +13,7 @@ using namespace std;
 int main(){
     int tiempo;
 
-    cout<< "Duranción en segundos: "<<endl;
+    cout<< "Duranción en segundos: ";
     cin>> tiempo;
 
     const int DIAS_SEGUNDOS=86400;

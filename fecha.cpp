@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(){
-    cout<<"Escriba una fecha con formato de 8 cifras [aaaammdd]: "<< endl;
+    cout<<"Escriba una fecha con formato de 8 cifras [aaaammdd]: ";
 
     int fecha;
     
