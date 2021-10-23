@@ -28,7 +28,9 @@ int main(){
 
     //Para hallar la distancia mediante el terorema de pitagóras el programa calcula el valor de los catetos para calcular la hipotenusa(distancia)
     double catetox=abs(punto2x-punto1x);
-    double catetoy=abs(punto2y-punto1x);
+    double catetoy=abs(punto2y-punto1y);
+
+    cout<< catetox << "\n"<<catetoy<<endl;
 
     //Teorema de pitagoras(Hipotenusa^2 = cateto^2+cateto^2)
     double distancia= sqrt(catetox*catetox+catetoy*catetoy);
